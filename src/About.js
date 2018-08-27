@@ -57,7 +57,7 @@ export default class About extends Component {
                   <div className="card">
                     <div className="content">
                       <div className="header" style={{ textAlign: "center" }}>Stack Overflow</div> </div>
-                    <a href="https://github.com/AG-Systems">
+                    <a href="https://stackoverflow.com/users/5487345/auriga">
                         <div className="ui orange bottom attached button">
                           <i className="tasks icon"></i>
                           Stack Overflow
@@ -69,8 +69,10 @@ export default class About extends Component {
                     <div className="content">
                       <div className="header" style={{ textAlign: "center" }}>LinkedIn</div> </div>
                         <button className="ui bottom attached linkedin button">
+                         <a href="https://www.linkedin.com/in/max-chakhmatov/" style={{ color: "white" }}>
                           <i className="linkedin icon"></i>
                           LinkedIn
+                          </a>
                         </button>
                  </div>
                  
@@ -89,8 +91,10 @@ export default class About extends Component {
                     <div className="content">
                       <div className="header" style={{ textAlign: "center" }}>Instagram</div> </div>
                     <button className="ui bottom attached instagram button">
+                     <a href="https://www.instagram.com/maxchakhmatov/" style={{ color: "white" }}>
                       <i className="instagram icon"></i>
                       Instagram
+                     </a>
                     </button>
                  </div>
                 </div>
