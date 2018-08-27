@@ -17,7 +17,7 @@ export default class About extends Component {
                 <br/>
             </FadeIn>
             <FadeIn delay={ 150 } transitionDuration={ 500 }>
-                <div class="ui card" style={{ minWidth: "320px", margin: "0 auto" }}>
+                <div className="ui card" style={{ minWidth: "320px", margin: "0 auto" }}>
               <div className="image">
                 <img src="https://cdn.wallpaperjam.com/static/images/m/75/bd/75bd114ac2882ae38500460dabcff02cb45c72a7.jpg" />
               </div>
@@ -53,8 +53,8 @@ export default class About extends Component {
             <div style={{ width: "100%", height: "45px" }}></div>
             <FadeIn delay={ 250 } transitionDuration={ 600 }>
             
-                <div className="ui four cards" style={{ margin: "0 auto", width: "80%" }}>
-                  <div className="card">
+                <div className="ui four cards" style={{ margin: "0 auto", width: "95%" }}>
+                  <div className="card" style={{ minWidth: "250px", margin: "0 auto", marginBottom: "35px" }}>
                     <div className="content">
                       <div className="header" style={{ textAlign: "center" }}>Stack Overflow</div> </div>
                     <a href="https://stackoverflow.com/users/5487345/auriga">
@@ -65,7 +65,7 @@ export default class About extends Component {
                     </a>
                  </div>
                  
-                  <div className="card">
+                  <div className="card" style={{ minWidth: "250px", margin: "0 auto", marginBottom: "35px" }}>
                     <div className="content">
                       <div className="header" style={{ textAlign: "center" }}>LinkedIn</div> </div>
                         <button className="ui bottom attached linkedin button">
@@ -76,7 +76,7 @@ export default class About extends Component {
                         </button>
                  </div>
                  
-                  <div className="card">
+                  <div className="card" style={{ minWidth: "250px", margin: "0 auto", marginBottom: "35px" }}>
                     <div className="content">
                       <div className="header" style={{ textAlign: "center" }}>GitHub</div> </div>
                   <a href="https://github.com/AG-Systems">
@@ -87,7 +87,7 @@ export default class About extends Component {
                  </a>
                  </div>
                  
-                  <div className="card">
+                  <div className="card" style={{ minWidth: "250px", margin: "0 auto", marginBottom: "35px" }}>
                     <div className="content">
                       <div className="header" style={{ textAlign: "center" }}>Instagram</div> </div>
                     <button className="ui bottom attached instagram button">

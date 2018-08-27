@@ -45,7 +45,7 @@ class Home extends Component {
   {
       const posts = [
         { title: "How I founded ChronoCI", date: "May 05, 2018", desc: "My biggest, hardest, and most ambitious project", url: "founding-chronoci", img2: "https://puu.sh/B5T4c/290505f1d1.png", img: "https://puu.sh/Bl3ra/d6fcafd5bc.png" },
-        { title: "Building PixelML", date: "May 16, 2017", desc: "How I built an webapp that analyzes online advertisement", url: "building-pixelml", img2: "https://puu.sh/Bl5xO/a957d3c9d4.png", img: "https://puu.sh/Bl5wb/a64cd1c1cb.png" } 
+        { title: "Building PixelML", date: "May 16, 2017", desc: "How I built a webapp that analyzes online advertisement", url: "building-pixelml", img2: "https://puu.sh/Bl5xO/a957d3c9d4.png", img: "https://puu.sh/Bl5wb/a64cd1c1cb.png" }
      ];
      return posts.map((post, index) => (
         <Card title={ post.title } date={ post.date } desc={ post.desc } url={ post.url } key={index} img={ post.img } img2={ post.img2 }/>

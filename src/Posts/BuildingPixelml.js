@@ -11,7 +11,7 @@ export default class BuildingPixelml extends Component {
        <div className="content content-home">
         <br/>
           <div className="content-text">
-            <h1>Making Pixelml</h1>
+            <h1 style={{ textAlign: "center" }}>Making Pixelml</h1>
             <p><b>How I got the idea: </b>When I was trying to find an idea that is worth pursing to, my idea of validation was using a dummy site and use facebook ads to see how many people click on the ad. When I realized
             there is no good way of knowing how good your ad is (the photo that the user sees), I decided to focus on that.
             </p>
