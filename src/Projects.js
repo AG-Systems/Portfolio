@@ -7,7 +7,7 @@ import FadeIn from 'react-fade-in';
 class Card extends Component {
   render() {
     return (
-      <div className="ui card" style={{ minWidth: "300px", marginBottom: "35px" }}>
+      <div className="ui card" style={{ minWidth: "250px", marginBottom: "35px" }}>
        {/* 
         <div className="content">
           <div className="right floated meta">14h</div>
@@ -123,7 +123,7 @@ class Projects extends Component {
         </div>
         <div style={{ background: "#e6e6e6", minHeight: "80vh", height: "auto" }}>
          <FadeIn delay={ 200 }>
-          <div className="ui three stackable cards" style={{ minWidth: "300px", width: "92%", margin: "0 auto" }}>
+          <div className="ui three stackable cards" style={{ minWidth: "250px", width: "92%", margin: "0 auto" }}>
             <div style={{ width: "100%", height: "35px" }}></div>
             { this.renderProjects() }
           </div>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import FadeIn from 'react-fade-in';
+import LazyImage from "react-lazy-progressive-image";
 
 export default class About extends Component {
   constructor(props)
@@ -19,7 +20,12 @@ export default class About extends Component {
             <FadeIn delay={ 150 } transitionDuration={ 500 }>
                 <div className="ui card" style={{ minWidth: "320px", margin: "0 auto" }}>
               <div className="image">
-                <img src="https://cdn.wallpaperjam.com/static/images/m/75/bd/75bd114ac2882ae38500460dabcff02cb45c72a7.jpg" />
+                <LazyImage
+                  placeholder={"https://i.redd.it/ounq1mw5kdxy.gif"}
+                  src={"https://cdn.wallpaperjam.com/static/images/m/75/bd/75bd114ac2882ae38500460dabcff02cb45c72a7.jpg"}
+                >
+                  {(src, loading, isVisible) => <img src={src} />}
+                </LazyImage>                
               </div>
               <div className="content">
                 <a className="header">Max Chakhmatov</a>
