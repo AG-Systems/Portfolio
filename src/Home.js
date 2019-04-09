@@ -9,7 +9,7 @@ class Card extends Component {
     return (
       <div className="ui card" style={{ minWidth: "250px", marginBottom: "35px" }}>
         <div className="content">
-          <div className="right floated meta">14h</div>
+          <div className="right floated meta">14h</div> 
           { this.props.date }
         </div>
         <div className="ui slide masked reveal image">
